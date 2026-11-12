@@ -6,7 +6,7 @@
 
 | 书 | 章节 | 概念 | 测验 | 抽认卡 | 学习伴侣 |
 |---|---|---|---|---|---|
-| 复分析：可视化方法 | 2 | 9 | 19 | 18 | [visual-complex-analysis学习伴侣.html](01-复分析可视化方法/visual-complex-analysis学习伴侣.html) |
+| 复分析：可视化方法 | 12 | 49 | 101 | 98 | [visual-complex-analysis学习伴侣.html](01-复分析可视化方法/visual-complex-analysis学习伴侣.html) |
 
 ## 跨书总览
 

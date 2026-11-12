@@ -28,6 +28,86 @@
         "ch02"
       ],
       "checkpoint": "第 2 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "03",
+      "title": "默比乌斯变换和反演",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "第 3 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "04",
+      "title": "微分学：伸扭的概念",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "第 4 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "05",
+      "title": "微分学的进一步几何研究",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "第 5 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "06",
+      "title": "非欧几何学",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "第 6 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "07",
+      "title": "环绕数与拓扑学",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "第 7 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "08",
+      "title": "复积分：柯西定理",
+      "chapterIds": [
+        "ch08"
+      ],
+      "checkpoint": "第 8 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "09",
+      "title": "柯西公式及应用",
+      "chapterIds": [
+        "ch09"
+      ],
+      "checkpoint": "第 9 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "10",
+      "title": "向量场：物理学与拓扑学",
+      "chapterIds": [
+        "ch10"
+      ],
+      "checkpoint": "第 10 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "11",
+      "title": "向量场与复积分",
+      "chapterIds": [
+        "ch11"
+      ],
+      "checkpoint": "第 11 章自测题正确率 ≥ 80%"
+    },
+    {
+      "step": "12",
+      "title": "流与调和函数",
+      "chapterIds": [
+        "ch12"
+      ],
+      "checkpoint": "第 12 章自测题正确率 ≥ 80%"
     }
   ],
   "chapters": [
@@ -54,6 +134,202 @@
       "prerequisites": [
         {
           "id": "ch01",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：默比乌斯变换和反演",
+      "file": "chapters/ch03-默比乌斯变换和反演.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 104
+      },
+      "prerequisites": [
+        {
+          "id": "ch01",
+          "type": "hard"
+        },
+        {
+          "id": "ch02",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：微分学：伸扭的概念",
+      "file": "chapters/ch04-微分学-伸扭的概念.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 166
+      },
+      "prerequisites": [
+        {
+          "id": "ch01",
+          "type": "hard"
+        },
+        {
+          "id": "ch02",
+          "type": "hard"
+        },
+        {
+          "id": "ch03",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：微分学的进一步的几何研究",
+      "file": "chapters/ch05-微分学的进一步几何研究.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 191
+      },
+      "prerequisites": [
+        {
+          "id": "ch04",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：非欧几何学",
+      "file": "chapters/ch06-非欧几何学.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 238
+      },
+      "prerequisites": [
+        {
+          "id": "ch03",
+          "type": "hard"
+        },
+        {
+          "id": "ch04",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：环绕数与拓扑学",
+      "file": "chapters/ch07-环绕数与拓扑学.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 300
+      },
+      "prerequisites": [
+        {
+          "id": "ch03",
+          "type": "soft"
+        },
+        {
+          "id": "ch05",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "第 8 章：复积分：柯西定理",
+      "file": "chapters/ch08-复积分-柯西定理.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 336
+      },
+      "prerequisites": [
+        {
+          "id": "ch04",
+          "type": "hard"
+        },
+        {
+          "id": "ch07",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "第 9 章：柯西公式及应用",
+      "file": "chapters/ch09-柯西公式及应用.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 380
+      },
+      "prerequisites": [
+        {
+          "id": "ch08",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "第 10 章：向量场：物理学与拓扑学",
+      "file": "chapters/ch10-向量场-物理学与拓扑.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 402
+      },
+      "prerequisites": [
+        {
+          "id": "ch08",
+          "type": "soft"
+        },
+        {
+          "id": "ch07",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "第 11 章：向量场与复积分",
+      "file": "chapters/ch11-向量场与复积分.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 422
+      },
+      "prerequisites": [
+        {
+          "id": "ch09",
+          "type": "hard"
+        },
+        {
+          "id": "ch10",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "第 12 章：流与调和函数",
+      "file": "chapters/ch12-流与调和函数.md",
+      "difficulty": 3,
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 454
+      },
+      "prerequisites": [
+        {
+          "id": "ch11",
+          "type": "hard"
+        },
+        {
+          "id": "ch09",
           "type": "hard"
         }
       ]
@@ -234,6 +510,806 @@
         }
       ],
       "depthFragment": "concepts/c09-depth.md"
+    },
+    {
+      "id": "c10",
+      "title": "反演",
+      "file": "concepts/c10-反演.md",
+      "chapterIds": [
+        "ch03"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 106
+      },
+      "prerequisites": [
+        {
+          "id": "c01",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c10-depth.md"
+    },
+    {
+      "id": "c11",
+      "title": "黎曼球面",
+      "file": "concepts/c11-黎曼球面.md",
+      "chapterIds": [
+        "ch03"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 120
+      },
+      "prerequisites": [
+        {
+          "id": "c10",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "默比乌斯变换",
+      "file": "concepts/c12-默比乌斯变换.md",
+      "chapterIds": [
+        "ch03"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 127
+      },
+      "prerequisites": [
+        {
+          "id": "c10",
+          "type": "hard"
+        },
+        {
+          "id": "c11",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "不动点与四类变换",
+      "file": "concepts/c13-不动点与分类.md",
+      "chapterIds": [
+        "ch03"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 143
+      },
+      "prerequisites": [
+        {
+          "id": "c12",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c13-depth.md"
+    },
+    {
+      "id": "c14",
+      "title": "导数作为伸扭",
+      "file": "concepts/c14-导数作为伸扭.md",
+      "chapterIds": [
+        "ch04"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 170
+      },
+      "prerequisites": [
+        {
+          "id": "c06",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c14-depth.md"
+    },
+    {
+      "id": "c15",
+      "title": "解析与共形",
+      "file": "concepts/c15-解析与共形.md",
+      "chapterIds": [
+        "ch04"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 181
+      },
+      "prerequisites": [
+        {
+          "id": "c14",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "柯西–黎曼方程",
+      "file": "concepts/c16-柯西黎曼方程.md",
+      "chapterIds": [
+        "ch04"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 190
+      },
+      "prerequisites": [
+        {
+          "id": "c14",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c16-depth.md"
+    },
+    {
+      "id": "c17",
+      "title": "临界点",
+      "file": "concepts/c17-临界点.md",
+      "chapterIds": [
+        "ch04"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 187
+      },
+      "prerequisites": [
+        {
+          "id": "c15",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "可视微分法",
+      "file": "concepts/c18-可视微分法.md",
+      "chapterIds": [
+        "ch05"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 192
+      },
+      "prerequisites": [
+        {
+          "id": "c14",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c18-depth.md"
+    },
+    {
+      "id": "c19",
+      "title": "微分法则的几何",
+      "file": "concepts/c19-微分法则的几何.md",
+      "chapterIds": [
+        "ch05"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 204
+      },
+      "prerequisites": [
+        {
+          "id": "c18",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "曲率与高阶导数",
+      "file": "concepts/c20-曲率与高阶导数.md",
+      "chapterIds": [
+        "ch05"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 224
+      },
+      "prerequisites": [
+        {
+          "id": "c19",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "解析延拓",
+      "file": "concepts/c21-解析延拓.md",
+      "chapterIds": [
+        "ch05"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 232
+      },
+      "prerequisites": [
+        {
+          "id": "c07",
+          "type": "soft"
+        }
+      ],
+      "depthFragment": "concepts/c21-depth.md"
+    },
+    {
+      "id": "c22",
+      "title": "球面几何",
+      "file": "concepts/c22-球面几何.md",
+      "chapterIds": [
+        "ch06"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 246
+      },
+      "prerequisites": [
+        {
+          "id": "c11",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c23",
+      "title": "双曲几何与庞加莱圆盘",
+      "file": "concepts/c23-双曲几何.md",
+      "chapterIds": [
+        "ch06"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 262
+      },
+      "prerequisites": [
+        {
+          "id": "c12",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c23-depth.md"
+    },
+    {
+      "id": "c24",
+      "title": "测地线",
+      "file": "concepts/c24-测地线.md",
+      "chapterIds": [
+        "ch06"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 251
+      },
+      "prerequisites": [
+        {
+          "id": "c23",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c25",
+      "title": "曲率与三种几何",
+      "file": "concepts/c25-曲率与三种几何.md",
+      "chapterIds": [
+        "ch06"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 260
+      },
+      "prerequisites": [
+        {
+          "id": "c24",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c25-depth.md"
+    },
+    {
+      "id": "c26",
+      "title": "环绕数",
+      "file": "concepts/c26-环绕数.md",
+      "chapterIds": [
+        "ch07"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 302
+      },
+      "prerequisites": [
+        {
+          "id": "c21",
+          "type": "soft"
+        }
+      ],
+      "depthFragment": "concepts/c26-depth.md"
+    },
+    {
+      "id": "c27",
+      "title": "辐角原理",
+      "file": "concepts/c27-辐角原理.md",
+      "chapterIds": [
+        "ch07"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 316
+      },
+      "prerequisites": [
+        {
+          "id": "c26",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c27-depth.md"
+    },
+    {
+      "id": "c28",
+      "title": "鲁歇定理",
+      "file": "concepts/c28-鲁歇定理.md",
+      "chapterIds": [
+        "ch07"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 324
+      },
+      "prerequisites": [
+        {
+          "id": "c27",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c29",
+      "title": "最大模原理",
+      "file": "concepts/c29-最大模原理.md",
+      "chapterIds": [
+        "ch07"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 330
+      },
+      "prerequisites": [
+        {
+          "id": "c27",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c30",
+      "title": "复积分",
+      "file": "concepts/c30-复积分.md",
+      "chapterIds": [
+        "ch08"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 338
+      },
+      "prerequisites": [
+        {
+          "id": "c26",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c30-depth.md"
+    },
+    {
+      "id": "c31",
+      "title": "柯西定理",
+      "file": "concepts/c31-柯西定理.md",
+      "chapterIds": [
+        "ch08"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 350
+      },
+      "prerequisites": [
+        {
+          "id": "c30",
+          "type": "hard"
+        },
+        {
+          "id": "c16",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c31-depth.md"
+    },
+    {
+      "id": "c32",
+      "title": "围道变形",
+      "file": "concepts/c32-围道变形.md",
+      "chapterIds": [
+        "ch08"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 362
+      },
+      "prerequisites": [
+        {
+          "id": "c31",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c33",
+      "title": "莫雷拉定理",
+      "file": "concepts/c33-莫雷拉定理.md",
+      "chapterIds": [
+        "ch08"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 370
+      },
+      "prerequisites": [
+        {
+          "id": "c31",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c34",
+      "title": "柯西积分公式",
+      "file": "concepts/c34-柯西积分公式.md",
+      "chapterIds": [
+        "ch09"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 382
+      },
+      "prerequisites": [
+        {
+          "id": "c32",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c34-depth.md"
+    },
+    {
+      "id": "c35",
+      "title": "高阶导数公式",
+      "file": "concepts/c35-高阶导数公式.md",
+      "chapterIds": [
+        "ch09"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 386
+      },
+      "prerequisites": [
+        {
+          "id": "c34",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c36",
+      "title": "刘维尔定理与代数基本定理",
+      "file": "concepts/c36-刘维尔定理.md",
+      "chapterIds": [
+        "ch09"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 390
+      },
+      "prerequisites": [
+        {
+          "id": "c35",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c36-depth.md"
+    },
+    {
+      "id": "c37",
+      "title": "泰勒级数与收敛半径",
+      "file": "concepts/c37-泰勒级数.md",
+      "chapterIds": [
+        "ch09"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 396
+      },
+      "prerequisites": [
+        {
+          "id": "c35",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c38",
+      "title": "向量场与复表示",
+      "file": "concepts/c38-向量场与复表示.md",
+      "chapterIds": [
+        "ch10"
+      ],
+      "difficulty": "基础",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 404
+      },
+      "prerequisites": [
+        {
+          "id": "c30",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c39",
+      "title": "通量与环量",
+      "file": "concepts/c39-通量与环量.md",
+      "chapterIds": [
+        "ch10"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 408
+      },
+      "prerequisites": [
+        {
+          "id": "c38",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c39-depth.md"
+    },
+    {
+      "id": "c40",
+      "title": "奇点与指数",
+      "file": "concepts/c40-奇点与指数.md",
+      "chapterIds": [
+        "ch10"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 414
+      },
+      "prerequisites": [
+        {
+          "id": "c39",
+          "type": "soft"
+        }
+      ],
+      "depthFragment": "concepts/c40-depth.md"
+    },
+    {
+      "id": "c41",
+      "title": "解析向量场与无源无旋",
+      "file": "concepts/c41-解析向量场.md",
+      "chapterIds": [
+        "ch10"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 418
+      },
+      "prerequisites": [
+        {
+          "id": "c39",
+          "type": "hard"
+        },
+        {
+          "id": "c16",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c42",
+      "title": "复势与流函数",
+      "file": "concepts/c42-复势与流函数.md",
+      "chapterIds": [
+        "ch11"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 424
+      },
+      "prerequisites": [
+        {
+          "id": "c41",
+          "type": "soft"
+        }
+      ]
+    },
+    {
+      "id": "c43",
+      "title": "留数定理",
+      "file": "concepts/c43-留数定理.md",
+      "chapterIds": [
+        "ch11"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 432
+      },
+      "prerequisites": [
+        {
+          "id": "c44",
+          "type": "hard"
+        },
+        {
+          "id": "c34",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c43-depth.md"
+    },
+    {
+      "id": "c44",
+      "title": "洛朗级数与奇点分类",
+      "file": "concepts/c44-洛朗级数.md",
+      "chapterIds": [
+        "ch11"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 428
+      },
+      "prerequisites": [
+        {
+          "id": "c37",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c44-depth.md"
+    },
+    {
+      "id": "c45",
+      "title": "留数计算与实积分",
+      "file": "concepts/c45-留数计算与实积分.md",
+      "chapterIds": [
+        "ch11"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 440
+      },
+      "prerequisites": [
+        {
+          "id": "c43",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c46",
+      "title": "调和函数与均值性质",
+      "file": "concepts/c46-调和函数.md",
+      "chapterIds": [
+        "ch12"
+      ],
+      "difficulty": "进阶",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 456
+      },
+      "prerequisites": [
+        {
+          "id": "c34",
+          "type": "soft"
+        }
+      ],
+      "depthFragment": "concepts/c46-depth.md"
+    },
+    {
+      "id": "c47",
+      "title": "泊松公式与狄利克雷问题",
+      "file": "concepts/c47-泊松公式.md",
+      "chapterIds": [
+        "ch12"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 462
+      },
+      "prerequisites": [
+        {
+          "id": "c46",
+          "type": "hard"
+        }
+      ]
+    },
+    {
+      "id": "c48",
+      "title": "Blasius 力与力矩",
+      "file": "concepts/c48-Blasius公式.md",
+      "chapterIds": [
+        "ch12"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 470
+      },
+      "prerequisites": [
+        {
+          "id": "c43",
+          "type": "hard"
+        },
+        {
+          "id": "c42",
+          "type": "hard"
+        }
+      ],
+      "depthFragment": "concepts/c48-depth.md"
+    },
+    {
+      "id": "c49",
+      "title": "黎曼映射定理",
+      "file": "concepts/c49-黎曼映射定理.md",
+      "chapterIds": [
+        "ch12"
+      ],
+      "difficulty": "高难",
+      "source": {
+        "file": "复分析：可视化方法（中译本）",
+        "page": 480
+      },
+      "prerequisites": [
+        {
+          "id": "c47",
+          "type": "soft"
+        }
+      ]
     }
   ],
   "glossary": [
@@ -321,6 +1397,241 @@
       "term": "对数支点",
       "def": "绕任意多圈都回不到原值的支点，如 log z 的 0",
       "chapterId": "ch02"
+    },
+    {
+      "term": "反演",
+      "def": "z↦1/z̄，长度取倒数、角度取反，把圆内翻到圆外",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "黎曼球面",
+      "def": "复平面加无穷远点后经球极射影得到的单位球面",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "球极射影",
+      "def": "从北极连线把平面点映到球面的对应",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "默比乌斯变换",
+      "def": "(az+b)/(cz+d) 且 ad−bc≠0 的映射",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "乘子",
+      "def": "把两不动点送到 0、∞ 后变换的乘数 m",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "交比",
+      "def": "(z1,z2;z3,z4)=((z3−z1)(z4−z2))/((z3−z2)(z4−z1))",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "伸扭",
+      "def": "局部伸缩加扭转，即保向相似",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "伸缩率",
+      "def": "局部放大倍数 |f'(z)|",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "扭转角",
+      "def": "局部旋转角 arg f'(z)",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "解析",
+      "def": "在一点的邻域内处处可导",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "柯西–黎曼方程",
+      "def": "u_x=v_y、u_y=−v_x，解析性的等价条件",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "临界点",
+      "def": "f'(z)=0 的点，局部保角性失效",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "可视微分法",
+      "def": "用小圆的象读出导数的模与角",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "对数导数",
+      "def": "f'/f，把乘法的伸缩与转角变成加法",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "曲率",
+      "def": "单位弧长上切线转过的角",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "解析延拓",
+      "def": "用唯一性把局部解析函数沿路径扩展到更大区域",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "测地线",
+      "def": "曲面上局部最短的曲线",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "庞加莱圆盘",
+      "def": "单位圆盘配双曲度量 2|dz|/(1−|z|²) 的模型",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "高斯曲率",
+      "def": "两个主曲率之积，内蕴量",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "球面盈余",
+      "def": "球面三角形内角和超出 π 的部分",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "角亏",
+      "def": "双曲三角形内角和少于 π 的部分",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "环绕数",
+      "def": "闭曲线绕某点的圈数，整数、拓扑不变",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "辐角原理",
+      "def": "f'/f 的积分等于零点数减极点数",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "鲁歇定理",
+      "def": "边界上 |g|<|f| 时 f 与 f+g 零点数相同",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "最大模原理",
+      "def": "非常数解析函数内部不能取最大模",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "复积分",
+      "def": "沿曲线累加 f·dz，实部为功、虚部为通量",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "柯西定理",
+      "def": "解析函数在单连通区域内闭积分为零",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "围道变形",
+      "def": "不扫过奇点时，积分沿围道连续变形不变",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "莫雷拉定理",
+      "def": "连续且闭积分恒零则解析",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "柯西积分公式",
+      "def": "解析函数内部值由边界值积分表示",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "高阶导数公式",
+      "def": "f^(n)(a) 用 f/(z−a)^{n+1} 的积分表示",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "刘维尔定理",
+      "def": "有界整函数必为常数",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "平均值性质",
+      "def": "圆心值等于圆周上函数值的平均",
+      "chapterId": "ch09"
+    },
+    {
+      "term": "向量场",
+      "def": "每点给一个箭头的映射，可写成复数 P+iQ",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "通量",
+      "def": "向量场沿曲线法向的积分总量",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "环量",
+      "def": "向量场沿曲线切向的积分总量",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "奇点指数",
+      "def": "绕奇点一圈箭头方向变化除以 2π，整数、拓扑不变",
+      "chapterId": "ch10"
+    },
+    {
+      "term": "复势",
+      "def": "Ω=φ+iψ，其导数为共轭速度",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "流函数",
+      "def": "复势虚部，等值线为流线",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "留数",
+      "def": "洛朗展开中 (z−z₀)^{-1} 的系数",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "洛朗级数",
+      "def": "圆环内含负幂的级数展开",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "本性奇点",
+      "def": "洛朗展开负幂项无限的奇点",
+      "chapterId": "ch11"
+    },
+    {
+      "term": "调和函数",
+      "def": "满足 Δφ=0 的函数",
+      "chapterId": "ch12"
+    },
+    {
+      "term": "狄利克雷问题",
+      "def": "由边界值求内部调和函数",
+      "chapterId": "ch12"
+    },
+    {
+      "term": "泊松核",
+      "def": "把边界值加权平均到圆盘内部的积分核",
+      "chapterId": "ch12"
+    },
+    {
+      "term": "Blasius 公式",
+      "def": "用复势平方的留数算流体力",
+      "chapterId": "ch12"
+    },
+    {
+      "term": "黎曼映射定理",
+      "def": "单连通区域可共形映到单位圆盘",
+      "chapterId": "ch12"
     }
   ],
   "patterns": {
@@ -622,6 +1933,1270 @@
       "answer": 2,
       "explain": "$e^{z+2\\pi i}=e^z e^{2\\pi i}=e^z$，$e^{2\\pi i}=1$。",
       "relatedConceptId": "c08"
+    },
+    {
+      "id": "q20",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "$z\\mapsto 1/\\bar z$ 把单位圆内的点送到哪里？",
+      "options": [
+        "圆内",
+        "圆外",
+        "圆上",
+        "原点"
+      ],
+      "answer": 1,
+      "explain": "$|1/\\bar z|=1/|z|$，$|z|<1$ 时结果大于 1，落在圆外。",
+      "relatedConceptId": "c10"
+    },
+    {
+      "id": "q21",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "默比乌斯变换 $M(z)=\\frac{az+b}{cz+d}$ 非退化的条件是？",
+      "options": [
+        "$a+d\\ne0$",
+        "$ad-bc\\ne0$",
+        "$a\\ne0$",
+        "$c\\ne0$"
+      ],
+      "answer": 1,
+      "explain": "$ad-bc=0$ 时映射退化成常值，整个平面压成一个点。",
+      "relatedConceptId": "c12"
+    },
+    {
+      "id": "q22",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "$M(z)=\\frac{z-i}{z+i}$ 把上半平面映成什么？",
+      "options": [
+        "单位圆外",
+        "单位圆内",
+        "右半平面",
+        "上半平面"
+      ],
+      "answer": 1,
+      "explain": "实轴满足 $|x-i|=|x+i|$，映成单位圆；$i$ 映成 0，故上半平面落入圆内。",
+      "relatedConceptId": "c12"
+    },
+    {
+      "id": "q23",
+      "chapterId": "ch03",
+      "type": "multi",
+      "question": "下面哪些是默比乌斯变换的分解步骤？",
+      "options": [
+        "平移",
+        "反演 $1/z$",
+        "伸缩加旋转",
+        "取共轭后再平方"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "教材式 3.3 的四步是平移、反演、伸缩旋转、再平移。",
+      "relatedConceptId": "c12"
+    },
+    {
+      "id": "q24",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "不动点方程 $cz^2+(d-a)z-b=0$ 有两个不同根时，可以断定？",
+      "options": [
+        "一定是椭圆型",
+        "有两个不同不动点",
+        "一定是抛物型",
+        "无法判断类型"
+      ],
+      "answer": 1,
+      "explain": "两根就是两个不动点；具体类型还要看乘子。",
+      "relatedConceptId": "c13"
+    },
+    {
+      "id": "q25",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "乘子 $m$ 满足 $|m|=1$ 时，变换是？",
+      "options": [
+        "椭圆型",
+        "双曲型",
+        "抛物型",
+        "恒等变换"
+      ],
+      "answer": 0,
+      "explain": "$|m|=1$ 表示长度为 1、只有旋转，属椭圆型。",
+      "relatedConceptId": "c13"
+    },
+    {
+      "id": "q26",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "反演把过反演中心的圆映成什么？",
+      "options": [
+        "另一个圆",
+        "一条直线",
+        "一个点",
+        "单位圆"
+      ],
+      "answer": 1,
+      "explain": "圆心距等于半径（$D=0$）时，象的方程退化成 $\\mathrm{Re}(\\bar a w)=1/2$，是一条直线。",
+      "relatedConceptId": "c10"
+    },
+    {
+      "id": "q27",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "扩充复平面中，直线可以看成什么？",
+      "options": [
+        "半径为零的圆",
+        "过无穷远点的圆",
+        "两条射线",
+        "抛物线"
+      ],
+      "answer": 1,
+      "explain": "添上 $\\infty$ 后，直线是过 $\\infty$ 的圆；球极射影下对应过北极的圆。",
+      "relatedConceptId": "c11"
+    },
+    {
+      "id": "q28",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "$M(z)=2z$ 属于哪一类？",
+      "options": [
+        "椭圆型",
+        "双曲型",
+        "抛物型",
+        "斜驶型"
+      ],
+      "answer": 1,
+      "explain": "不动点 $0,\\infty$，乘子 $m=2>0$，属双曲型。",
+      "relatedConceptId": "c13"
+    },
+    {
+      "id": "q29",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "$f'(z)$ 的模表示什么？",
+      "options": [
+        "切线斜率",
+        "局部伸缩率",
+        "扭转角",
+        "曲率"
+      ],
+      "answer": 1,
+      "explain": "$|f'|$ 是无穷小向量的放大倍数，$|f'|$ 称伸缩率。",
+      "relatedConceptId": "c14"
+    },
+    {
+      "id": "q30",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "$f(z)=z^2$ 在 $z=i$ 处的扭转角是？",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": 2,
+      "explain": "$f'(i)=2i$，$\\arg(2i)=90°$。",
+      "relatedConceptId": "c14"
+    },
+    {
+      "id": "q31",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "下面哪个函数在原点有临界点？",
+      "options": [
+        "$e^z$",
+        "$z^3$",
+        "$z+1$",
+        "$1/z$"
+      ],
+      "answer": 1,
+      "explain": "$(z^3)'=3z^2$，在 0 处为 0。",
+      "relatedConceptId": "c17"
+    },
+    {
+      "id": "q32",
+      "chapterId": "ch04",
+      "type": "multi",
+      "question": "柯西–黎曼方程包括哪两条？",
+      "options": [
+        "$u_x=v_y$",
+        "$u_y=-v_x$",
+        "$u_x=v_x$",
+        "$u_y=v_y$"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "CR 是交叉相等：$u_x=v_y$ 与 $u_y=-v_x$。",
+      "relatedConceptId": "c16"
+    },
+    {
+      "id": "q33",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "$f(z)=z^2$ 的导数是？",
+      "options": [
+        "$2z$",
+        "$z$",
+        "$2\\bar z$",
+        "$z^2$"
+      ],
+      "answer": 0,
+      "explain": "幂法则，或 CR 算得 $u_x+iv_x=2x+2iy=2z$。",
+      "relatedConceptId": "c16"
+    },
+    {
+      "id": "q34",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "$f(z)=\\bar z$ 在复平面上是否解析？",
+      "options": [
+        "是",
+        "否",
+        "除原点外是",
+        "只在实轴上是"
+      ],
+      "answer": 1,
+      "explain": "$u=x,v=-y$，$u_x=1$、$v_y=-1$，CR 不成立。",
+      "relatedConceptId": "c16"
+    },
+    {
+      "id": "q35",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "解析函数在 $f'(z_0)=0$ 的点会发生什么？",
+      "options": [
+        "函数不连续",
+        "保角性失效",
+        "函数值为零",
+        "变成常数"
+      ],
+      "answer": 1,
+      "explain": "伸缩率变为 0，角度无定义，局部不再一一对应。",
+      "relatedConceptId": "c17"
+    },
+    {
+      "id": "q36",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "CR 成立时，$f'(z)$ 等于？",
+      "options": [
+        "$u_x+iv_x$",
+        "$u_y+iv_y$",
+        "$u_x-iv_x$",
+        "$v_x+iu_x$"
+      ],
+      "answer": 0,
+      "explain": "$f'=u_x+iv_x$，也可写成 $v_y-iu_y$。",
+      "relatedConceptId": "c16"
+    },
+    {
+      "id": "q37",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "解析函数的实部和虚部满足什么方程？",
+      "options": [
+        "拉普拉斯方程",
+        "波动方程",
+        "热传导方程",
+        "不满足任何方程"
+      ],
+      "answer": 0,
+      "explain": "由 CR 求导得 $u_{xx}+u_{yy}=0$，即调和（拉普拉斯方程）。",
+      "relatedConceptId": "c16"
+    },
+    {
+      "id": "q38",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "$(\\log z)'$ 在 $z=2$ 处的伸缩率是？",
+      "options": [
+        "2",
+        "1/2",
+        "1",
+        "4"
+      ],
+      "answer": 1,
+      "explain": "$1/z=1/2$，其模为 $1/2$。",
+      "relatedConceptId": "c18"
+    },
+    {
+      "id": "q39",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "链式法则的几何意思是？",
+      "options": [
+        "乘子相加",
+        "乘子相乘",
+        "乘子相除",
+        "乘子取共轭"
+      ],
+      "answer": 1,
+      "explain": "$(f\\circ g)'=f'(g)g'$，两个乘子相乘。",
+      "relatedConceptId": "c19"
+    },
+    {
+      "id": "q40",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "$(fg)'/(fg)$ 等于？",
+      "options": [
+        "$f'/f+g'/g$",
+        "$f'/f-g'/g$",
+        "$f'g'$",
+        "$f/g$"
+      ],
+      "answer": 0,
+      "explain": "对数导数相加，对应伸缩率对数相加、角度相加。",
+      "relatedConceptId": "c19"
+    },
+    {
+      "id": "q41",
+      "chapterId": "ch05",
+      "type": "multi",
+      "question": "解析延拓的必要条件包括？",
+      "options": [
+        "两块区域有重叠",
+        "在重叠区相等",
+        "函数解析",
+        "函数有界"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "有界不是必要条件；解析性与重叠区相等才是。",
+      "relatedConceptId": "c21"
+    },
+    {
+      "id": "q42",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "$f''(z)$ 描述什么？",
+      "options": [
+        "函数值",
+        "伸缩率的变化率",
+        "曲线长度",
+        "收敛半径"
+      ],
+      "answer": 1,
+      "explain": "$f'$ 管一次伸扭，$f''$ 管伸扭随位置的变化。",
+      "relatedConceptId": "c20"
+    },
+    {
+      "id": "q43",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "$e^z$ 的导数是？",
+      "options": [
+        "$e^z$",
+        "$ze^{z-1}$",
+        "$1/e^z$",
+        "$e^{-z}$"
+      ],
+      "answer": 0,
+      "explain": "$e^z$ 的局部乘子等于它自身。",
+      "relatedConceptId": "c18"
+    },
+    {
+      "id": "q44",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "共形映射对曲率的影响是？",
+      "options": [
+        "完全不变",
+        "按 |f'| 缩放并加 f'' 修正",
+        "变成零",
+        "只取决于函数值"
+      ],
+      "answer": 1,
+      "explain": "$\\kappa_w=\\kappa_z/|f'|+f''$ 决定的项。",
+      "relatedConceptId": "c20"
+    },
+    {
+      "id": "q45",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "$\\frac1{1-z}$ 的幂级数为什么不能延拓过 $z=1$？",
+      "options": [
+        "级数在 1 处发散，奇点挡路",
+        "函数在 1 处为零",
+        "级数收敛半径为 0",
+        "1 不是实数"
+      ],
+      "answer": 0,
+      "explain": "收敛圆被奇点 $z=1$ 挡住，越过它必须换展开点。",
+      "relatedConceptId": "c21"
+    },
+    {
+      "id": "q46",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "球面三角形的内角和？",
+      "options": [
+        "等于 π",
+        "大于 π",
+        "小于 π",
+        "不确定"
+      ],
+      "answer": 1,
+      "explain": "正曲率，角和 = π + 面积/R²。",
+      "relatedConceptId": "c22"
+    },
+    {
+      "id": "q47",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "庞加莱圆盘的测地线是？",
+      "options": [
+        "欧氏直线",
+        "与边界正交的圆弧",
+        "椭圆",
+        "抛物线"
+      ],
+      "answer": 1,
+      "explain": "双曲测地线是正交于单位圆的圆弧。",
+      "relatedConceptId": "c24"
+    },
+    {
+      "id": "q48",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "双曲几何中过直线外一点有几条平行线？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "无穷多"
+      ],
+      "answer": 3,
+      "explain": "双曲平行公设：无穷多条不相交的测地线。",
+      "relatedConceptId": "c23"
+    },
+    {
+      "id": "q49",
+      "chapterId": "ch06",
+      "type": "multi",
+      "question": "三种常曲率几何包括？",
+      "options": [
+        "球面",
+        "平面",
+        "双曲",
+        "环面"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explain": "环面曲率不均匀，不属于常曲率三类。",
+      "relatedConceptId": "c25"
+    },
+    {
+      "id": "q50",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "庞加莱圆盘度量 $2|dz|/(1-|z|^2)$ 在边界附近会？",
+      "options": [
+        "趋于 0",
+        "趋于无穷",
+        "保持不变",
+        "变成负的"
+      ],
+      "answer": 1,
+      "explain": "分母趋于 0，真实距离趋于无穷。",
+      "relatedConceptId": "c23"
+    },
+    {
+      "id": "q51",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "球面等距变换投到平面上是什么？",
+      "options": [
+        "线性函数",
+        "默比乌斯变换",
+        "指数函数",
+        "多项式"
+      ],
+      "answer": 1,
+      "explain": "球面旋转经球极射影对应默比乌斯变换。",
+      "relatedConceptId": "c22"
+    },
+    {
+      "id": "q52",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "双曲三角形内角和与 π 的关系？",
+      "options": [
+        "大于 π",
+        "等于 π",
+        "小于 π",
+        "等于 2π"
+      ],
+      "answer": 2,
+      "explain": "负曲率，角和 = π − 面积/R²。",
+      "relatedConceptId": "c23"
+    },
+    {
+      "id": "q53",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "高斯曲率是内蕴量，意味着？",
+      "options": [
+        "只由曲面在空间中的形状决定",
+        "只由度量决定，蚂蚁可测",
+        "一定是常数",
+        "只能为正"
+      ],
+      "answer": 1,
+      "explain": "高斯绝妙定理：曲率只依赖度量，与外部嵌入无关。",
+      "relatedConceptId": "c25"
+    },
+    {
+      "id": "q54",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "单位圆绕点 2 一圈的环绕数是？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "−1"
+      ],
+      "answer": 0,
+      "explain": "点 2 在圆外，曲线没绕它。",
+      "relatedConceptId": "c26"
+    },
+    {
+      "id": "q55",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "$\\frac1{2\\pi i}\\oint f'/f\\,dz$ 等于？",
+      "options": [
+        "Z+P",
+        "Z−P",
+        "P−Z",
+        "0"
+      ],
+      "answer": 1,
+      "explain": "辐角原理：零点计重数、极点计阶数。",
+      "relatedConceptId": "c27"
+    },
+    {
+      "id": "q56",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "鲁歇定理的条件是？",
+      "options": [
+        "边界上 |g|<|f|",
+        "边界上 |g|>|f|",
+        "f 为常数",
+        "g 无零点"
+      ],
+      "answer": 0,
+      "explain": "严格小于保证 f+tg 在边界不为零。",
+      "relatedConceptId": "c28"
+    },
+    {
+      "id": "q57",
+      "chapterId": "ch07",
+      "type": "multi",
+      "question": "下面哪些是拓扑不变量？",
+      "options": [
+        "环绕数",
+        "曲线长度",
+        "零点个数（计重数）",
+        "曲线形状"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explain": "长度与形状随变形改变，环绕数与零点数是整数的、稳定的。",
+      "relatedConceptId": "c26"
+    },
+    {
+      "id": "q58",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "最大模原理说最大值出现在？",
+      "options": [
+        "区域内部",
+        "边界",
+        "原点",
+        "无穷远"
+      ],
+      "answer": 1,
+      "explain": "内部不能取最大，除非常数。",
+      "relatedConceptId": "c29"
+    },
+    {
+      "id": "q59",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "$f$ 在单位圆内解析且无零点，则 $\\oint f'/f\\,dz$ 等于？",
+      "options": [
+        "2πi",
+        "0",
+        "2π",
+        "i"
+      ],
+      "answer": 1,
+      "explain": "Z=P=0。",
+      "relatedConceptId": "c27"
+    },
+    {
+      "id": "q60",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "$z^5+3z^2+1$ 在 $|z|<1$ 内有几个零点？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "explain": "取 f=3z²、g=z⁵+1，边界上 |g|≤2<3=|f|，零点数与 3z² 相同，为 2。",
+      "relatedConceptId": "c28"
+    },
+    {
+      "id": "q61",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "环绕数在连续变形下不变的条件是？",
+      "options": [
+        "不变形",
+        "变形不扫过被绕点",
+        "曲线保持圆形",
+        "点必须在原点"
+      ],
+      "answer": 1,
+      "explain": "扫过被绕点时角度无定义，环绕数会跳。",
+      "relatedConceptId": "c26"
+    },
+    {
+      "id": "q62",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "$\\oint_{|z|=1}dz/z$ 等于？",
+      "options": [
+        "0",
+        "2πi",
+        "πi",
+        "2π"
+      ],
+      "answer": 1,
+      "explain": "绕 0 一圈，环绕数 1。",
+      "relatedConceptId": "c30"
+    },
+    {
+      "id": "q63",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "柯西定理要求区域？",
+      "options": [
+        "单连通",
+        "有界",
+        "对称",
+        "无界"
+      ],
+      "answer": 0,
+      "explain": "单连通保证围道内部全在解析区。",
+      "relatedConceptId": "c31"
+    },
+    {
+      "id": "q64",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "$f\\,dz$ 的实部对应？",
+      "options": [
+        "通量",
+        "功",
+        "面积",
+        "长度"
+      ],
+      "answer": 1,
+      "explain": "$u\\,dx-v\\,dy$ 是切向分量，即功。",
+      "relatedConceptId": "c30"
+    },
+    {
+      "id": "q65",
+      "chapterId": "ch08",
+      "type": "multi",
+      "question": "柯西定理的证明路线包括？",
+      "options": [
+        "格林公式",
+        "古尔萨三角形分割",
+        "留数定理",
+        "最大模原理"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "前者假设偏导连续，后者不假设。",
+      "relatedConceptId": "c31"
+    },
+    {
+      "id": "q66",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "$\\oint_{|z|=2}\\frac{dz}{z-1}$ 等于？",
+      "options": [
+        "0",
+        "2πi",
+        "4πi",
+        "πi"
+      ],
+      "answer": 1,
+      "explain": "1 在圆内，环绕数 1。",
+      "relatedConceptId": "c32"
+    },
+    {
+      "id": "q67",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "若 $f$ 在单连通区域内解析，则沿任意闭曲线积分为？",
+      "options": [
+        "2πi",
+        "1",
+        "0",
+        "依赖曲线"
+      ],
+      "answer": 2,
+      "explain": "柯西定理。",
+      "relatedConceptId": "c31"
+    },
+    {
+      "id": "q68",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "莫雷拉定理的结论是？",
+      "options": [
+        "闭积分零 ⇒ 解析",
+        "解析 ⇒ 有界",
+        "有界 ⇒ 常数",
+        "连续 ⇒ 可导"
+      ],
+      "answer": 0,
+      "explain": "它是柯西定理的逆命题。",
+      "relatedConceptId": "c33"
+    },
+    {
+      "id": "q69",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "围道变形时不能做什么？",
+      "options": [
+        "改变方向",
+        "扫过奇点",
+        "缩小围道",
+        "换参数化"
+      ],
+      "answer": 1,
+      "explain": "扫过奇点时区域内出现非解析点，积分值会变。",
+      "relatedConceptId": "c32"
+    },
+    {
+      "id": "q70",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "柯西公式中 a 必须在？",
+      "options": [
+        "曲线外",
+        "曲线内",
+        "曲线上",
+        "无穷远"
+      ],
+      "answer": 1,
+      "explain": "a 在内部，1/(z−a) 才有奇点。",
+      "relatedConceptId": "c34"
+    },
+    {
+      "id": "q71",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "$\\oint_{|z|=1}\\frac{e^z}{z}dz$ 等于？",
+      "options": [
+        "0",
+        "2πi",
+        "2πie",
+        "πi"
+      ],
+      "answer": 1,
+      "explain": "f(0)=1，乘 2πi。",
+      "relatedConceptId": "c34"
+    },
+    {
+      "id": "q72",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "刘维尔定理说？",
+      "options": [
+        "有界整函数为常数",
+        "解析函数有界",
+        "整函数无零点",
+        "多项式有根"
+      ],
+      "answer": 0,
+      "explain": "整 + 有界 ⇒ 常数。",
+      "relatedConceptId": "c36"
+    },
+    {
+      "id": "q73",
+      "chapterId": "ch09",
+      "type": "multi",
+      "question": "泰勒收敛半径由什么决定？",
+      "options": [
+        "最近奇点",
+        "展开中心",
+        "函数值",
+        "导数阶数"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "半径 = 中心到最近奇点的距离。",
+      "relatedConceptId": "c37"
+    },
+    {
+      "id": "q74",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "$f^{(n)}(a)$ 的积分公式分母是？",
+      "options": [
+        "(z−a)^n",
+        "(z−a)^{n+1}",
+        "z^n",
+        "(z+a)^{n+1}"
+      ],
+      "answer": 1,
+      "explain": "n 次导数给 (z−a)^{n+1}。",
+      "relatedConceptId": "c35"
+    },
+    {
+      "id": "q75",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "代数基本定理的证明用？",
+      "options": [
+        "刘维尔定理",
+        "留数定理",
+        "最大模原理",
+        "柯西–黎曼方程"
+      ],
+      "answer": 0,
+      "explain": "假设无根，1/p 有界整函数，矛盾。",
+      "relatedConceptId": "c36"
+    },
+    {
+      "id": "q76",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "$1/(1-z)$ 在 0 处的泰勒半径是？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "answer": 1,
+      "explain": "最近奇点 z=1，距离 1。",
+      "relatedConceptId": "c37"
+    },
+    {
+      "id": "q77",
+      "chapterId": "ch09",
+      "type": "single",
+      "question": "平均值性质说 f(a) 等于？",
+      "options": [
+        "边界最大值",
+        "小圆上的平均",
+        "导数",
+        "留数"
+      ],
+      "answer": 1,
+      "explain": "f(a)=(1/2π)∫f(a+re^{iθ})dθ。",
+      "relatedConceptId": "c34"
+    },
+    {
+      "id": "q78",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "V(z)=z 在原点处的指数是？",
+      "options": [
+        "−1",
+        "0",
+        "+1",
+        "+2"
+      ],
+      "answer": 2,
+      "explain": "源，绕一圈箭头转一圈。",
+      "relatedConceptId": "c40"
+    },
+    {
+      "id": "q79",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "无源无旋向量场满足？",
+      "options": [
+        "散度与旋度都为 0",
+        "只有散度为 0",
+        "只有旋度为 0",
+        "指数为 1"
+      ],
+      "answer": 0,
+      "explain": "无源即散度 0，无旋即旋度 0；对应 V̄ 解析。",
+      "relatedConceptId": "c41"
+    },
+    {
+      "id": "q80",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "V(z)=z̄ 的指数是？",
+      "options": [
+        "−1",
+        "0",
+        "+1",
+        "+2"
+      ],
+      "answer": 0,
+      "explain": "鞍点，绕一圈箭头反向转。",
+      "relatedConceptId": "c40"
+    },
+    {
+      "id": "q81",
+      "chapterId": "ch10",
+      "type": "multi",
+      "question": "格林公式给出的两个量是？",
+      "options": [
+        "散度",
+        "旋度",
+        "指数",
+        "留数"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "通量对应散度，环量对应旋度。",
+      "relatedConceptId": "c39"
+    },
+    {
+      "id": "q82",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "指数在连续变形下不变的条件是？",
+      "options": [
+        "不变形",
+        "不扫过奇点",
+        "场保持线性",
+        "区域有界"
+      ],
+      "answer": 1,
+      "explain": "扫过奇点时方向无定义。",
+      "relatedConceptId": "c40"
+    },
+    {
+      "id": "q83",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "V(z)=iz 的通量是？",
+      "options": [
+        "0",
+        "2π",
+        "−2π",
+        "π"
+      ],
+      "answer": 0,
+      "explain": "纯旋转场，法向分量为零。",
+      "relatedConceptId": "c39"
+    },
+    {
+      "id": "q84",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "V=P+iQ 解析时，下列哪个一般不为零？",
+      "options": [
+        "散度 P_x+Q_y",
+        "旋度 Q_x−P_y",
+        "两者都为 0",
+        "指数"
+      ],
+      "answer": 0,
+      "explain": "V 解析给 CR：P_x=Q_y，P_y=−Q_x，散度为 2P_x，一般非零；无源无旋要看 V̄。",
+      "relatedConceptId": "c41"
+    },
+    {
+      "id": "q85",
+      "chapterId": "ch10",
+      "type": "single",
+      "question": "环量的积分表达式是？",
+      "options": [
+        "∮(P dy−Q dx)",
+        "∮(P dx+Q dy)",
+        "∮P dx",
+        "∮Q dy"
+      ],
+      "answer": 1,
+      "explain": "环量是切向分量积分。",
+      "relatedConceptId": "c39"
+    },
+    {
+      "id": "q86",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "$\\oint_{|z|=1}\\frac{e^z}{z}dz$ 等于？",
+      "options": [
+        "0",
+        "2πi",
+        "πi",
+        "2πie"
+      ],
+      "answer": 1,
+      "explain": "留数 1，积分 2πi。",
+      "relatedConceptId": "c43"
+    },
+    {
+      "id": "q87",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "$1/z^2$ 在 0 处的留数是？",
+      "options": [
+        "1",
+        "0",
+        "1/2",
+        "不存在"
+      ],
+      "answer": 1,
+      "explain": "洛朗展开只有 z^{−2} 项，a_{−1}=0。",
+      "relatedConceptId": "c43"
+    },
+    {
+      "id": "q88",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "$e^{1/z}$ 在 0 处是什么奇点？",
+      "options": [
+        "可去",
+        "一阶极点",
+        "本性",
+        "支点"
+      ],
+      "answer": 2,
+      "explain": "负幂项无限。",
+      "relatedConceptId": "c44"
+    },
+    {
+      "id": "q89",
+      "chapterId": "ch11",
+      "type": "multi",
+      "question": "留数定理的条件包括？",
+      "options": [
+        "有限个孤立奇点",
+        "围道上解析",
+        "函数有界",
+        "区域单连通"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "有界不是必要条件；单连通也不是必须。",
+      "relatedConceptId": "c43"
+    },
+    {
+      "id": "q90",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "复势 $\\Omega$ 与速度 $\\bar V$ 的关系是？",
+      "options": [
+        "Ω=V̄",
+        "Ω'=V̄",
+        "Ω'=V",
+        "无关"
+      ],
+      "answer": 1,
+      "explain": "Ω'=φ_x+iψ_x=u−iv=V̄。",
+      "relatedConceptId": "c42"
+    },
+    {
+      "id": "q91",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "流函数 $\\psi$ 的等值线是？",
+      "options": [
+        "等势线",
+        "流线",
+        "奇点",
+        "围道"
+      ],
+      "answer": 1,
+      "explain": "ψ=常数是流线。",
+      "relatedConceptId": "c42"
+    },
+    {
+      "id": "q92",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "$\\oint_{|z|=2}\\frac{z}{(z-1)(z-3)}dz$ 等于？",
+      "options": [
+        "−πi",
+        "πi",
+        "2πi",
+        "0"
+      ],
+      "answer": 0,
+      "explain": "留数 −1/2，积分 −πi。",
+      "relatedConceptId": "c43"
+    },
+    {
+      "id": "q93",
+      "chapterId": "ch11",
+      "type": "single",
+      "question": "$\\oint_{|z|=1}\\frac{dz}{z^2}$ 等于？",
+      "options": [
+        "2πi",
+        "πi",
+        "0",
+        "−2πi"
+      ],
+      "answer": 2,
+      "explain": "留数 0。",
+      "relatedConceptId": "c43"
+    },
+    {
+      "id": "q94",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "解析函数的实部满足？",
+      "options": [
+        "拉普拉斯方程",
+        "热方程",
+        "波动方程",
+        "无方程"
+      ],
+      "answer": 0,
+      "explain": "CR 求导得 Δu=0。",
+      "relatedConceptId": "c46"
+    },
+    {
+      "id": "q95",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "泊松公式解决什么问题？",
+      "options": [
+        "圆盘狄利克雷问题",
+        "留数计算",
+        "泰勒展开",
+        "一次方程"
+      ],
+      "answer": 0,
+      "explain": "边界值定内部调和函数。",
+      "relatedConceptId": "c47"
+    },
+    {
+      "id": "q96",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "Blasius 公式算的是？",
+      "options": [
+        "流量",
+        "障碍物受力",
+        "温度",
+        "留数"
+      ],
+      "answer": 1,
+      "explain": "压力沿边界积分。",
+      "relatedConceptId": "c48"
+    },
+    {
+      "id": "q97",
+      "chapterId": "ch12",
+      "type": "multi",
+      "question": "调和函数的性质包括？",
+      "options": [
+        "均值性质",
+        "最大模原理",
+        "一定是常数",
+        "解析函数的实虚部都调和"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explain": "常数不是唯一；解析函数的实虚部都满足 Δ=0。",
+      "relatedConceptId": "c46"
+    },
+    {
+      "id": "q98",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "黎曼映射定理说单连通区域可共形映到？",
+      "options": [
+        "上半平面",
+        "单位圆盘",
+        "球面",
+        "环面"
+      ],
+      "answer": 1,
+      "explain": "任意单连通区域 → 单位圆盘。",
+      "relatedConceptId": "c49"
+    },
+    {
+      "id": "q99",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "库塔–儒可夫斯基定理的升力公式？",
+      "options": [
+        "L=ρUΓ",
+        "L=ρU²",
+        "L=Γ/U",
+        "L=ρ/Γ"
+      ],
+      "answer": 0,
+      "explain": "升力正比于环量。",
+      "relatedConceptId": "c48"
+    },
+    {
+      "id": "q100",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "泊松核在 r→1 时？",
+      "options": [
+        "趋于 0",
+        "变成尖峰",
+        "趋于常数",
+        "发散到无穷"
+      ],
+      "answer": 1,
+      "explain": "核集中在边界对应点，逼近边界值。",
+      "relatedConceptId": "c47"
+    },
+    {
+      "id": "q101",
+      "chapterId": "ch12",
+      "type": "single",
+      "question": "狄利克雷问题解的唯一性靠？",
+      "options": [
+        "最大值原理",
+        "留数定理",
+        "洛朗展开",
+        "泰勒展开"
+      ],
+      "answer": 0,
+      "explain": "两解之差在边界为 0，由最大值原理恒为 0。",
+      "relatedConceptId": "c46"
     }
   ],
   "flashcards": [
@@ -800,6 +3375,730 @@
       "tags": [
         "多值",
         "支点"
+      ]
+    },
+    {
+      "id": "f19",
+      "chapterId": "ch03",
+      "front": "反演的公式与几何效果？",
+      "back": "z↦1/z̄：长度取倒数、角度取反；圆内翻到圆外，圆与直线互换。",
+      "tags": [
+        "反演"
+      ]
+    },
+    {
+      "id": "f20",
+      "chapterId": "ch03",
+      "front": "过反演中心的圆映成什么？",
+      "back": "一条直线；圆心距等于半径时象的半径趋于无穷。",
+      "tags": [
+        "反演",
+        "圆"
+      ]
+    },
+    {
+      "id": "f21",
+      "chapterId": "ch03",
+      "front": "黎曼球面里 ∞ 对应哪个点？",
+      "back": "北极 N；0 对应南极 S，单位圆对应赤道。",
+      "tags": [
+        "球面"
+      ]
+    },
+    {
+      "id": "f22",
+      "chapterId": "ch03",
+      "front": "默比乌斯变换的四步分解？",
+      "back": "平移 z+d/c → 反演 1/z → 伸缩旋转 → 平移 +a/c。",
+      "tags": [
+        "默比乌斯"
+      ]
+    },
+    {
+      "id": "f23",
+      "chapterId": "ch03",
+      "front": "默比乌斯变换由几个点唯一确定？",
+      "back": "三对点：z1,z2,z3 与它们的象 w1,w2,w3。",
+      "tags": [
+        "默比乌斯"
+      ]
+    },
+    {
+      "id": "f24",
+      "chapterId": "ch03",
+      "front": "不动点方程是什么？",
+      "back": "cz²+(d−a)z−b=0；重根时只有一个不动点。",
+      "tags": [
+        "不动点"
+      ]
+    },
+    {
+      "id": "f25",
+      "chapterId": "ch03",
+      "front": "乘子 |m|=1 / m>0 / m=1 各对应哪类？",
+      "back": "椭圆 / 双曲 / 抛物；其余为斜驶。",
+      "tags": [
+        "分类"
+      ]
+    },
+    {
+      "id": "f26",
+      "chapterId": "ch03",
+      "front": "交比判四点共圆的条件？",
+      "back": "交比为实数（含共线情形）。",
+      "tags": [
+        "交比"
+      ]
+    },
+    {
+      "id": "f27",
+      "chapterId": "ch04",
+      "front": "复导数的两个几何信息？",
+      "back": "模 = 局部伸缩率；辐角 = 局部扭转角。",
+      "tags": [
+        "伸扭"
+      ]
+    },
+    {
+      "id": "f28",
+      "chapterId": "ch04",
+      "front": "伸扭（amplitwist）指什么？",
+      "back": "局部对无穷小向量先伸缩再扭转，即保向相似。",
+      "tags": [
+        "伸扭"
+      ]
+    },
+    {
+      "id": "f29",
+      "chapterId": "ch04",
+      "front": "解析与共形的关系？",
+      "back": "解析且 f'≠0 处共形；局部保向相似则解析。",
+      "tags": [
+        "共形"
+      ]
+    },
+    {
+      "id": "f30",
+      "chapterId": "ch04",
+      "front": "柯西–黎曼方程？",
+      "back": "u_x=v_y，u_y=−v_x。",
+      "tags": [
+        "CR"
+      ]
+    },
+    {
+      "id": "f31",
+      "chapterId": "ch04",
+      "front": "CR 成立的复形式？",
+      "back": "∂f/∂z̄=0，即 f 只依赖 z。",
+      "tags": [
+        "CR"
+      ]
+    },
+    {
+      "id": "f32",
+      "chapterId": "ch04",
+      "front": "临界点是什么？",
+      "back": "f'(z0)=0 的点，伸缩率为 0，保角失效。",
+      "tags": [
+        "临界点"
+      ]
+    },
+    {
+      "id": "f33",
+      "chapterId": "ch04",
+      "front": "z^n 在 0 处的局部行为？",
+      "back": "角度乘 n，n 重覆盖。",
+      "tags": [
+        "临界点"
+      ]
+    },
+    {
+      "id": "f34",
+      "chapterId": "ch04",
+      "front": "解析函数的实部虚部满足？",
+      "back": "都是调和函数：u_xx+u_yy=0，v 同样。",
+      "tags": [
+        "CR",
+        "调和"
+      ]
+    },
+    {
+      "id": "f35",
+      "chapterId": "ch05",
+      "front": "可视微分法怎么做？",
+      "back": "在 z 处画小圆，看象圆半径比与转角，读出 |f'| 与 arg f'。",
+      "tags": [
+        "微分"
+      ]
+    },
+    {
+      "id": "f36",
+      "chapterId": "ch05",
+      "front": "(fg)'/(fg) 的几何含义？",
+      "back": "对数导数相加：伸缩率对数相加、角度相加。",
+      "tags": [
+        "法则"
+      ]
+    },
+    {
+      "id": "f37",
+      "chapterId": "ch05",
+      "front": "链式法则的乘子怎么组合？",
+      "back": "f'(g(z)) 与 g'(z) 两个乘子相乘。",
+      "tags": [
+        "法则"
+      ]
+    },
+    {
+      "id": "f38",
+      "chapterId": "ch05",
+      "front": "e^z 为什么导数还是自己？",
+      "back": "伸缩率等于函数值、扭转角等于辐角，解只有指数函数。",
+      "tags": [
+        "指数"
+      ]
+    },
+    {
+      "id": "f39",
+      "chapterId": "ch05",
+      "front": "曲率的复数公式？",
+      "back": "κ = Im(z̄'z'')/|z'|³。",
+      "tags": [
+        "曲率"
+      ]
+    },
+    {
+      "id": "f40",
+      "chapterId": "ch05",
+      "front": "f'' 的几何意义？",
+      "back": "伸缩率随位置的变化率，决定像曲线额外弯曲。",
+      "tags": [
+        "曲率"
+      ]
+    },
+    {
+      "id": "f41",
+      "chapterId": "ch05",
+      "front": "解析延拓的唯一性定理？",
+      "back": "两块重叠区域上相等，则并集上恒等。",
+      "tags": [
+        "延拓"
+      ]
+    },
+    {
+      "id": "f42",
+      "chapterId": "ch05",
+      "front": "延拓为什么会被奇点挡住？",
+      "back": "幂级数在奇点处失效，收敛半径由最近奇点决定。",
+      "tags": [
+        "延拓"
+      ]
+    },
+    {
+      "id": "f43",
+      "chapterId": "ch06",
+      "front": "球面几何的直线是什么？",
+      "back": "大圆（过球心的平面与球面的交线）。",
+      "tags": [
+        "球面"
+      ]
+    },
+    {
+      "id": "f44",
+      "chapterId": "ch06",
+      "front": "球面三角形角和公式？",
+      "back": "A+B+C = π + 面积/R²。",
+      "tags": [
+        "球面"
+      ]
+    },
+    {
+      "id": "f45",
+      "chapterId": "ch06",
+      "front": "庞加莱圆盘的度量？",
+      "back": "ds = 2|dz|/(1−|z|²)。",
+      "tags": [
+        "双曲"
+      ]
+    },
+    {
+      "id": "f46",
+      "chapterId": "ch06",
+      "front": "双曲测地线是什么曲线？",
+      "back": "与单位圆正交的圆弧（含直径）。",
+      "tags": [
+        "双曲",
+        "测地线"
+      ]
+    },
+    {
+      "id": "f47",
+      "chapterId": "ch06",
+      "front": "双曲三角形角和公式？",
+      "back": "A+B+C = π − 面积/R²。",
+      "tags": [
+        "双曲"
+      ]
+    },
+    {
+      "id": "f48",
+      "chapterId": "ch06",
+      "front": "圆盘自同构的一般形式？",
+      "back": "M(z)=e^{iθ}(z−a)/(1−āz)，|a|<1。",
+      "tags": [
+        "双曲",
+        "默比乌斯"
+      ]
+    },
+    {
+      "id": "f49",
+      "chapterId": "ch06",
+      "front": "三种常曲率几何的曲率符号？",
+      "back": "球面 +1，平面 0，双曲 −1（归一化半径）。",
+      "tags": [
+        "曲率"
+      ]
+    },
+    {
+      "id": "f50",
+      "chapterId": "ch06",
+      "front": "为什么曲率是内蕴的？",
+      "back": "它只由度量决定，蚂蚁量三角形角和即可算出。",
+      "tags": [
+        "曲率"
+      ]
+    },
+    {
+      "id": "f51",
+      "chapterId": "ch07",
+      "front": "环绕数的定义？",
+      "back": "Δarg(z−a)/2π，逆时针为正。",
+      "tags": [
+        "拓扑"
+      ]
+    },
+    {
+      "id": "f52",
+      "chapterId": "ch07",
+      "front": "环绕数为什么是整数？",
+      "back": "闭曲线回到起点，角度差只能是 2π 的整数倍。",
+      "tags": [
+        "拓扑"
+      ]
+    },
+    {
+      "id": "f53",
+      "chapterId": "ch07",
+      "front": "辐角原理公式？",
+      "back": "(1/2πi)∮f'/f dz = Z−P。",
+      "tags": [
+        "辐角"
+      ]
+    },
+    {
+      "id": "f54",
+      "chapterId": "ch07",
+      "front": "鲁歇定理的条件？",
+      "back": "边界上 |g|<|f|，则 f 与 f+g 零点数相同。",
+      "tags": [
+        "鲁歇"
+      ]
+    },
+    {
+      "id": "f55",
+      "chapterId": "ch07",
+      "front": "最大模原理的结论？",
+      "back": "非常数解析函数内部不能取最大模，最大在边界。",
+      "tags": [
+        "最大模"
+      ]
+    },
+    {
+      "id": "f56",
+      "chapterId": "ch07",
+      "front": "施瓦茨–皮克引理的结论？",
+      "back": "f 把圆盘映到自身且 f(0)=0，则 |f'(0)|≤1、|f(z)|≤|z|。",
+      "tags": [
+        "最大模"
+      ]
+    },
+    {
+      "id": "f57",
+      "chapterId": "ch07",
+      "front": "代数基本定理怎么用鲁歇证？",
+      "back": "取 f=a_n z^n，g=低次项，边界上 |g|<|f|，零点数为 n。",
+      "tags": [
+        "鲁歇"
+      ]
+    },
+    {
+      "id": "f58",
+      "chapterId": "ch07",
+      "front": "环绕数的积分形式？",
+      "back": "(1/2πi)∮dz/(z−a)。",
+      "tags": [
+        "拓扑"
+      ]
+    },
+    {
+      "id": "f59",
+      "chapterId": "ch08",
+      "front": "复积分拆成哪两个实积分？",
+      "back": "实部 ∫(u dx−v dy)（功），虚部 ∫(u dy+v dx)（通量）。",
+      "tags": [
+        "积分"
+      ]
+    },
+    {
+      "id": "f60",
+      "chapterId": "ch08",
+      "front": "柯西定理的结论？",
+      "back": "解析函数在单连通区域内沿闭曲线积分为 0。",
+      "tags": [
+        "柯西"
+      ]
+    },
+    {
+      "id": "f61",
+      "chapterId": "ch08",
+      "front": "柯西定理证明的关键？",
+      "back": "CR 方程让格林公式的两个面积分同时为 0。",
+      "tags": [
+        "柯西"
+      ]
+    },
+    {
+      "id": "f62",
+      "chapterId": "ch08",
+      "front": "古尔萨证明的特点？",
+      "back": "不假设偏导连续，用三角形不断四分把积分压到 0。",
+      "tags": [
+        "柯西"
+      ]
+    },
+    {
+      "id": "f63",
+      "chapterId": "ch08",
+      "front": "围道变形的规则？",
+      "back": "环形区域内解析则内外圈积分相等，不能扫过奇点。",
+      "tags": [
+        "围道"
+      ]
+    },
+    {
+      "id": "f64",
+      "chapterId": "ch08",
+      "front": "莫雷拉定理？",
+      "back": "连续且任意闭积分为零 ⇒ 解析。",
+      "tags": [
+        "莫雷拉"
+      ]
+    },
+    {
+      "id": "f65",
+      "chapterId": "ch08",
+      "front": "路径无关的条件？",
+      "back": "单连通区域内解析。",
+      "tags": [
+        "柯西"
+      ]
+    },
+    {
+      "id": "f66",
+      "chapterId": "ch08",
+      "front": "∮dz/(z−a) 的值？",
+      "back": "2πi 乘以环绕数 ν(Γ,a)。",
+      "tags": [
+        "积分"
+      ]
+    },
+    {
+      "id": "f67",
+      "chapterId": "ch09",
+      "front": "柯西积分公式？",
+      "back": "f(a)=(1/2πi)∮f(z)/(z−a)dz。",
+      "tags": [
+        "柯西公式"
+      ]
+    },
+    {
+      "id": "f68",
+      "chapterId": "ch09",
+      "front": "高阶导数公式的分母？",
+      "back": "(z−a)^{n+1}，系数 n!/(2πi)。",
+      "tags": [
+        "导数"
+      ]
+    },
+    {
+      "id": "f69",
+      "chapterId": "ch09",
+      "front": "刘维尔定理？",
+      "back": "有界整函数必为常数。",
+      "tags": [
+        "刘维尔"
+      ]
+    },
+    {
+      "id": "f70",
+      "chapterId": "ch09",
+      "front": "代数基本定理怎么证？",
+      "back": "假设无根，1/p 有界整函数，由刘维尔得常数，矛盾。",
+      "tags": [
+        "刘维尔"
+      ]
+    },
+    {
+      "id": "f71",
+      "chapterId": "ch09",
+      "front": "泰勒系数公式？",
+      "back": "a_n=f^{(n)}(a)/n!。",
+      "tags": [
+        "泰勒"
+      ]
+    },
+    {
+      "id": "f72",
+      "chapterId": "ch09",
+      "front": "泰勒收敛半径？",
+      "back": "展开中心到最近奇点的距离。",
+      "tags": [
+        "泰勒"
+      ]
+    },
+    {
+      "id": "f73",
+      "chapterId": "ch09",
+      "front": "平均值性质？",
+      "back": "f(a) 等于以 a 为心小圆上 f 的平均。",
+      "tags": [
+        "柯西公式"
+      ]
+    },
+    {
+      "id": "f74",
+      "chapterId": "ch09",
+      "front": "a 在围道外时柯西公式给什么？",
+      "back": "积分为 0（被积函数解析）。",
+      "tags": [
+        "柯西公式"
+      ]
+    },
+    {
+      "id": "f75",
+      "chapterId": "ch10",
+      "front": "向量场的复表示？",
+      "back": "V(z)=P+iQ，逐点给箭头。",
+      "tags": [
+        "向量场"
+      ]
+    },
+    {
+      "id": "f76",
+      "chapterId": "ch10",
+      "front": "通量的积分式？",
+      "back": "∮(P dy−Q dx)，法向分量。",
+      "tags": [
+        "通量"
+      ]
+    },
+    {
+      "id": "f77",
+      "chapterId": "ch10",
+      "front": "环量的积分式？",
+      "back": "∮(P dx+Q dy)，切向分量。",
+      "tags": [
+        "环量"
+      ]
+    },
+    {
+      "id": "f78",
+      "chapterId": "ch10",
+      "front": "格林公式给出的散度与旋度？",
+      "back": "Flux=∬(P_x+Q_y)，Circ=∬(Q_x−P_y)。",
+      "tags": [
+        "格林"
+      ]
+    },
+    {
+      "id": "f79",
+      "chapterId": "ch10",
+      "front": "奇点指数的定义？",
+      "back": "绕一圈 Δarg V / 2π。",
+      "tags": [
+        "指数"
+      ]
+    },
+    {
+      "id": "f80",
+      "chapterId": "ch10",
+      "front": "源、汇、旋转的指数？",
+      "back": "都是 +1。",
+      "tags": [
+        "指数"
+      ]
+    },
+    {
+      "id": "f81",
+      "chapterId": "ch10",
+      "front": "鞍点 V=z̄ 的指数？",
+      "back": "−1。",
+      "tags": [
+        "指数"
+      ]
+    },
+    {
+      "id": "f82",
+      "chapterId": "ch10",
+      "front": "无源无旋对应哪个场解析？",
+      "back": "V̄=P−iQ 解析（复势导数）。",
+      "tags": [
+        "解析场"
+      ]
+    },
+    {
+      "id": "f83",
+      "chapterId": "ch11",
+      "front": "复势与速度的关系？",
+      "back": "Ω'=V̄，Ω=φ+iψ。",
+      "tags": [
+        "复势"
+      ]
+    },
+    {
+      "id": "f84",
+      "chapterId": "ch11",
+      "front": "流函数与势函数分别是什么的等值线？",
+      "back": "ψ 的等值线是流线，φ 的等值线是等势线。",
+      "tags": [
+        "复势"
+      ]
+    },
+    {
+      "id": "f85",
+      "chapterId": "ch11",
+      "front": "留数定理公式？",
+      "back": "∮f dz=2πi Σ Res(f,z_k)。",
+      "tags": [
+        "留数"
+      ]
+    },
+    {
+      "id": "f86",
+      "chapterId": "ch11",
+      "front": "一阶极点的留数怎么算？",
+      "back": "lim(z→z₀)(z−z₀)f(z)。",
+      "tags": [
+        "留数"
+      ]
+    },
+    {
+      "id": "f87",
+      "chapterId": "ch11",
+      "front": "m 阶极点的留数公式？",
+      "back": "1/(m−1)! lim d^{m−1}/dz^{m−1}[(z−z₀)^m f]。",
+      "tags": [
+        "留数"
+      ]
+    },
+    {
+      "id": "f88",
+      "chapterId": "ch11",
+      "front": "三类奇点？",
+      "back": "可去、极点、本性（按负幂项数量分）。",
+      "tags": [
+        "洛朗"
+      ]
+    },
+    {
+      "id": "f89",
+      "chapterId": "ch11",
+      "front": "洛朗级数的留数是哪一项？",
+      "back": "a_{−1}，即 (z−z₀)^{-1} 的系数。",
+      "tags": [
+        "洛朗"
+      ]
+    },
+    {
+      "id": "f90",
+      "chapterId": "ch11",
+      "front": "∫₀^{2π} dθ/(2+cosθ) 等于？",
+      "back": "2π/√3。",
+      "tags": [
+        "实积分"
+      ]
+    },
+    {
+      "id": "f91",
+      "chapterId": "ch12",
+      "front": "调和函数的定义？",
+      "back": "Δφ=φ_xx+φ_yy=0。",
+      "tags": [
+        "调和"
+      ]
+    },
+    {
+      "id": "f92",
+      "chapterId": "ch12",
+      "front": "解析函数与调和函数的关系？",
+      "back": "实部和虚部都调和。",
+      "tags": [
+        "调和"
+      ]
+    },
+    {
+      "id": "f93",
+      "chapterId": "ch12",
+      "front": "泊松核公式？",
+      "back": "P_r=(1−r²)/(1−2r cos(θ−t)+r²)。",
+      "tags": [
+        "泊松"
+      ]
+    },
+    {
+      "id": "f94",
+      "chapterId": "ch12",
+      "front": "狄利克雷问题是什么？",
+      "back": "给边界值求内部调和函数。",
+      "tags": [
+        "泊松"
+      ]
+    },
+    {
+      "id": "f95",
+      "chapterId": "ch12",
+      "front": "Blasius 合力公式？",
+      "back": "F_x−iF_y=(iρ/2)∮(Ω')²dz。",
+      "tags": [
+        "Blasius"
+      ]
+    },
+    {
+      "id": "f96",
+      "chapterId": "ch12",
+      "front": "库塔–儒可夫斯基升力？",
+      "back": "L=ρUΓ。",
+      "tags": [
+        "Blasius"
+      ]
+    },
+    {
+      "id": "f97",
+      "chapterId": "ch12",
+      "front": "黎曼映射定理？",
+      "back": "任意单连通区域可共形映到单位圆盘。",
+      "tags": [
+        "黎曼映射"
+      ]
+    },
+    {
+      "id": "f98",
+      "chapterId": "ch12",
+      "front": "儒可夫斯基映射？",
+      "back": "w=z+1/z，把圆外映成机翼外。",
+      "tags": [
+        "黎曼映射"
       ]
     }
   ]
